@@ -11,7 +11,7 @@ namespace MyFirstWeb
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");//Ignore忽略
 
             routes.MapRoute(
                 name: "Default",
